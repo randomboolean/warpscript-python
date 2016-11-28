@@ -23,7 +23,6 @@ def post(warpscript, url=url, gzip=False, timeout=None, verifySSL=True):
         return answer.text
     
 if __name__ == '__main__':
-    import sys
     import argparse as ap
     
     parser = ap.ArgumentParser(description='Post warpscript code to a warp10 platform')
