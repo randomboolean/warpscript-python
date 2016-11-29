@@ -18,7 +18,7 @@ def post(warpscript, url=url, gzip=False, timeout=None, verifySSL=True):
     
     # return json
     if answer.status_code == 200:
-        return json.dumps(answer.json() , indent = 2)
+        return json.dumps(answer.json() , indent=2)
     else:
         return answer.text
     
