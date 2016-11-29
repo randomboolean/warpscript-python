@@ -1,3 +1,5 @@
+# A little python function to generate a permalink
+
 url = 'https://warp.cityzendata.net/api/v0/exec'
 url_quantum = 'https://home.cityzendata.net/quantum/#/warpscript/'
 
