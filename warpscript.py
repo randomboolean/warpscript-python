@@ -30,11 +30,11 @@ if __name__ == '__main__':
                      help='Warpscript code or filename ending with ".mc2"')
     parser.add_argument('--url', '-u', nargs='?', default=url,
                      help='Url of Warp10 platform. Default to https://warp.cityzendata.net/api/v0/exec')
-    parser.add_argument('--gzip', '-g', nargs='?', default=False, type=bool,
+    parser.add_argument('--gzip', '-g', nargs='?', action='store_true',
                      help='Use gzip encoding. Default to False')
     parser.add_argument('--timeout', '-t', nargs='?', default=None, type=int,
                      help='Timeout value (in s). Default to None')
-    parser.add_argument('--verifySSL', '-s', nargs='?', default=True, type=bool,
+    parser.add_argument('--verifySSL', '-s', nargs='?', action='store_false',
                      help='Verify SSL or not. Default to True')
     
     args = parser.parse_args()
