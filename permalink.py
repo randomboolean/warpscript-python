@@ -17,7 +17,7 @@ if __name__ == '__main__':
     
     parser = ap.ArgumentParser(description='Generate permalink to quantum UI')
     parser.add_argument('warpscript', metavar='code', nargs='+',
-                     help='Warpscript code or file name')
+                     help='Warpscript code or filename ending with ".mc2"')
     parser.add_argument('--url', '-u', nargs='?', default=url,
                      help='Url of Warp10 platform. Default to https://warp.cityzendata.net/api/v0/exec')
     
