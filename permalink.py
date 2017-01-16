@@ -5,7 +5,7 @@ url_quantum = 'https://home.cityzendata.net/quantum/'
 
 import base64 as b64
 
-def generate(warpscript, url=url, url_quantum=url_quantum, plot=False):
+def generate(warpscript, plot=False, url=url, url_quantum=url_quantum):
     
     # check if warpscript is a filename
     if len(warpscript) > 4:
