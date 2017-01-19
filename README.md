@@ -1,6 +1,6 @@
 # WarpScript-Python #
 
-This provides an interactive python api for warpscript.
+This provides an interactive python api for WarpScript.
 
 ### As python function ###
 
