@@ -1,3 +1,4 @@
 *.pyc
 temp*
 .ipynb_checkpoints/
+*.mc2
