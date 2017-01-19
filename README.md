@@ -11,7 +11,7 @@ Make sure they are in your python path then:
 
 ### Inside a Notebook ###
 
-* See `example.ipynb`
+* See [example.ipynb](http://nbviewer.jupyter.org/github/randomboolean/warpscript-python/blob/master/example.ipynb)
 
 ### As command line ###
 
