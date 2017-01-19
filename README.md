@@ -1,4 +1,4 @@
-# Warpscript-Python #
+# WarpScript-Python #
 
 This provides an interactive python api for warpscript.
 
