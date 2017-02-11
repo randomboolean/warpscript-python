@@ -46,7 +46,7 @@ if __name__ == '__main__':
     
     args = parser.parse_args()
     
-    print post((' ').join(args.warpscript), args.url, args.gzip, args.timeout, args.verifySSL)
+    print post((' ').join(args.warpscript), args.url, args.token, args.gzip, args.timeout, args.dontVerifySSL)
 
     
     
